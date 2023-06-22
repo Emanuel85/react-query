@@ -1,20 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "laptop",
-      "description": "laptop gaming",
-      "price": 1000,
-      "InStock": true
-    },
-    {
-      "id": 2,
-      "name": "smartphone",
-      "description": "latest smartphone model",
-      "price": 1200,
-      "InStock": true
-    },
-    {
       "id": 3,
       "name": "headphones",
       "description": "noise-cancelling headphones",
@@ -27,13 +13,6 @@
       "price": "1000",
       "InStock": true,
       "id": 4
-    },
-    {
-      "name": "Xiaomi 11",
-      "description": "Celular",
-      "price": "1200",
-      "InStock": true,
-      "id": 5
     }
   ]
 }

@@ -7,9 +7,11 @@ const productApi = axios.create(
 
 export const getProducts = async () => {
     const res = await productApi.get('/products')
-    console.log(res)
     return res.data
 }
 
 export const createProduct = (product) => productApi.post('/products', product)
- 
+
+export const deleteProduct = id => productApi.delete(`/products/${id}`)
+
+export const updateProduct = (product) => productApi.put(`/products/${product.id}`,product)
